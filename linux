@@ -1,0 +1,4 @@
+
+//How to copy one file contents to another file in Linux
+
+cp development.json production.json

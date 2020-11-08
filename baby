@@ -1,0 +1,49 @@
+baby
+
+       #my code
+
+        {
+          "title": "<%= lang.resource('welcome.noauth.babysitting_title') %>",
+          "subtitle": "<%= lang.resource('welcome.noauth.babysitting_subtitle') %>",
+          "image_url": "<%= urls.image('fastforward-icon-onboarding-babysitting') %>",
+          "buttons": [
+            {
+              "type": "web_url",
+              "title": "<%= lang.resource('welcome.noauth.book_now_button') %>",
+              "url": "<%= urls.mauqa_booking('mauqa.noauth','babysitting') %>",
+              "messenger_extensions": true,
+              "webview_height_ratio": "full"
+            },
+            {
+              "type": "web_url",
+              "title": "<%= lang.resource('welcome.noauth.learn_more_button') %>",
+              "url": "<%= urls.mauqa_learn_more('1vUtryTeMWzSPguaNXBgwV', 'babysitting') %>",
+              "messenger_extensions": true,
+              "webview_height_ratio": "full"
+            }
+          ]
+        }
+
+
+        ## babysitting
+        {
+          "title": "<%= lang.resource('welcome.noauth.babysitting_title') %>",
+          "subtitle": "<%= lang.resource('welcome.noauth.babysitting_subtitle') %>",
+          "image_url": "<%= urls.image('fastforward-icon-onboarding-babysitting') %>",
+          "buttons": [
+            {
+              "type": "web_url",
+              "title": "<%= lang.resource('welcome.noauth.book_now_button') %>",
+              "url": "<%= urls.mauqa_booking('mauqa.noauth','babysitting') %>",
+              "messenger_extensions": true,
+              "webview_height_ratio": "full"
+            },
+            {
+              "type": "web_url",
+              "title": "<%= lang.resource('welcome.noauth.learn_more_button') %>",
+              "url": "<%= urls.mauqa_learn_more('1vUtryTeMWzSPguaNXBgwV', 'babysitting') %>",
+              "messenger_extensions": true,
+              "webview_height_ratio": "full"
+            }
+          ]
+        }

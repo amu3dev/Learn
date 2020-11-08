@@ -1,0 +1,6 @@
+
+##Set environment variables from file of key/value pairs
+
+set -a
+$ . ./.sample.env
+set +a

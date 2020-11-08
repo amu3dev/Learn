@@ -1,0 +1,19 @@
+react
+
+// create counter-app
+npm init react-app counter-app
+
+imrc // import react component 
+
+import React, { Component } from 'react';
+
+cc // class component 
+ 
+class Counter extends Component {
+    state = {  }
+    render() { 
+        return (  );
+    }
+}
+cmd + P  to open 
+cmd + d  multi edit

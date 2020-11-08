@@ -1,0 +1,17 @@
+echo $PATH
+
+tail ~/.profile // bring last 10 lines
+
+echo 'source ~/.profile' >> ~/.bashrc
+
+
+rm ~/.profile ~/.bashrc   //remove
+
+source source ~/.bashrc // run scrpit and afect the current process
+
+echo 'source ~/.profile' >> ~/.bashrc   // redirection >> append  > remove and just write the following 
+
+cat ~/.bashrc >> ~/.bash_profile    // bashrc will be concatunated with bash_profile
+
+less ~/.bash_profile //display long files 
+

@@ -1,0 +1,21 @@
+Ruby
+
+## https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/
+
+which ruby
+ruby -v
+
+brew install gnupg
+
+gpg --keyserver hkp://ipv4.pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+##result on my terminal
+gpg: /Users/simplative/.gnupg/trustdb.gpg: trustdb created
+gpg: key 105BD0E739499BDB: public key "Piotr Kuczynski <piotr.kuczynski@gmail.com>" imported
+gpg: key 3804BB82D39DC0E3: public key "Michal Papis (RVM signing) <mpapis@gmail.com>" imported
+
+
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+/Users/simplative/.rvm/log/1601117888_ruby-2.7.0/package_install_coreutils_libyaml_zlib.log

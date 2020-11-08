@@ -1,0 +1,130 @@
+git editor 
+
+It's not a Git error message, it's the editor as git uses your default editor.
+
+To solve this:
+
+press "i" (i for insert)
+write your merge message
+press "esc" (escape)
+write ":wq" (write & quit)
+then press enter
+
+
+
+
+git checkout development
+
+
+$ git remote -v
+# View current remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+> destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+$ git remote rm destination
+# Remove remote
+$ git remote -v
+# Verify it's gone
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+
+git rm -r --cached .
+git add .
+git commit -m "remove gitignore files"
+git push
+
+
+…or create a new repository on the command line
+echo "# fb-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/amu3dev/fb-app.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/amu3dev/fb-app.git
+git branch -M master
+git push -u origin master
+
+
+git clone https://github.com/soulreaper02/facebook-bot-demo.git
+git clone https://git.heroku.com/morning-badlands-35866.git
+
+git clone https://github.com/amu3dev/fb-app.git
+
+git clone https://github.com/amu3dev/FbChatBot.git
+cd original-coast-clothing
+
+https://git.heroku.com/morning-badlands-35866.git
+
+
+git pull heroku master --rebase
+git pull github master --rebase
+
+git config --global alias.coa '!git add -A && git commit -m'
+git coa "A bunch of horrible changes"
+
+
+   
+   - terminal - goto the location of the folder/project
+   - git init
+   - git status
+   - git add
+   - git commit -m “…..”
+   - git remote add origin “location of remote repo”
+   - git push -u origin master
+   - git log
+   - git --help
+
+echo "# Messanger-App" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/amu3dev/Messanger-App.git
+git push -u origin master
+
+
+
+It can be done over the terminal. (VS code has a terminal)
+	1.	Go to the root of the directory.
+	2.	List your existing remotes in order to get the name of the remote you want to change. $ git remote -v
+	3.	origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+	4.	origin  git@github.com:USERNAME/REPOSITORY.git (push)
+	5.	 
+	6.	Change your remote's URL from SSH to HTTPS with the git remote set-url command. 
+	$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+	7.	 
+	8.	Verify that the remote URL has changed. 
+
+	$ git remote -v
+
+git commit -am "test add persistent_menu fix1"
+
+…or create a new repository on the command line
+
+echo "# FbChatBot" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/amu3dev/FbChatBot.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/amu3dev/FbChatBot.git
+git branch -M master
+git push -u origin master
+
+
+curl -X GET "https://morning-badlands-35866.herokuapp.com/webhook?hub.verify_token=<YOUR_VERIFY_TOKEN>&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
+
+ 
+
+

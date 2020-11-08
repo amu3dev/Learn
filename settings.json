@@ -1,0 +1,22 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": true,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "cSpell.userWords": [
+        "logfile",
+        "objectid",
+        "vidly"
+    ]
+}

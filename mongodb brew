@@ -1,0 +1,9 @@
+brew services list
+
+To start mongodb:
+
+brew services start mongodb
+
+To stop mongodb if it's already running:
+
+brew services stop mongodb

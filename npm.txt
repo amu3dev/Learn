@@ -1,0 +1,46 @@
+npm install -g localtunnel
+npm install express body-parser morgan request nodemon -- save
+npm install express request body-parser mongoose --save
+
+
+ npm view mongoose dependencies // see about mongoose dependencies 
+ npm view mongoose // see about mongoose 
+
+ npm list // list all dependices
+ npm list --depth=0 // list ur dependices
+
+
+npm i // install  npm 
+
+npm i mongoose; install mongoose
+npm i mongoose@5.8.11   // install specific version
+
+npm view mongoose versions // see all mongoose versions
+
+
+npm outdated // comparing what u have with npm reprositery 
+
+npm update // update minor version
+
+sudo npm i -g npm-check-updates // update to the latest available version i npm reprositery 
+
+npm-check-updates  // check my npm againest the npm reprositery 
+
+ncu // All dependencies match the latest package versions :) same as above
+
+
+npm i jshint --save-dev // DevDependencies
+
+npm un mongoose //  Uninstalling a Package
+
+
+export PORT=3000 // setting enviroment variable
+
+
+
+++++++++++++++++++++++++++ START A PROJECT++++++++++++++++++++++++
+npm init --yes
+
+
+
+

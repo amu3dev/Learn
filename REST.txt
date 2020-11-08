@@ -1,0 +1,18 @@
+
+
+
+RESTful Services
+
+Client >> http >> server
+
+CRUD 
+
+Read    GET       /api/customers  or api/customers/1 for specific customer
+
+Create  POST       api/customers/1  the customer object(s) in the body of the msg
+
+Update  PUT       api/customers/1  the customer object in the body of the msg
+
+Delete  DELETE    api/customers/1
+
+
